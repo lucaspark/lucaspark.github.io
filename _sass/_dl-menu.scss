@@ -317,10 +317,9 @@ All this is done for any sub-level being entered.
 	top: 0;
 	right: 0;
 	z-index: 1000;
-	width: 180px;
 
 	@media #{$medium} {
-		max-width: 200px;
+		max-width: 210px;
 		top: 25px;
 		right: 25px;
 	}
