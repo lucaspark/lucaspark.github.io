@@ -9,7 +9,7 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url: http://lucaspark.stream
+url:
 
 # Owner/author information
 owner:
@@ -78,6 +78,8 @@ exclude:
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
+  - .jekyll-metadata
+  - _site
   - .sass-cache
   - CHANGELOG
   - Capfile
