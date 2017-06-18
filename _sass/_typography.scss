@@ -26,6 +26,10 @@ h1 {
 		@include font-rem(32);
 	}
 }
+.phrase {
+	font-family: $heading-font;
+	font-weight: 300;
+}
 
 /* 
    Links
@@ -152,4 +156,7 @@ pre {
 }
 .space {
 	letter-spacing: 5px;
+}
+.highlight {
+	color: $highlight-color;
 }
